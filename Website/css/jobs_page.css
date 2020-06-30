@@ -1,0 +1,184 @@
+#container{
+    margin-left: auto;
+    margin-right: auto;
+    width:70%;
+    text-align: center;
+}
+#Jobs_Page{
+    background: url(https://www.carvemag.com/wp-content/uploads/2019/03/SANDY-CAMPS.jpg) no-repeat center center fixed;
+    background-size:cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+#filterButtons p {
+    font-size: 1.5vw;
+    margin: 0;
+    text-align: center;
+}
+/*Space tags to add some padding between columns*/
+#space10{
+    height:10px;
+}
+#space20{
+    height:30px;
+}
+#space30{
+    height:30px;
+}
+/*#title{
+    text-align:center;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #5f0776;
+    font-size: 1.5vw;
+    font-weight: bold;
+    color:white;
+}*/
+#dropdownMenu2{
+    width:100%;
+    font-size: 1vw;
+}
+
+
+/*Number of jobs found and other filters (right side column)*/
+h{
+    font-weight: bold;
+}
+#numOfCompanies{
+    border-radius: 25px;
+    background: #d4a1f3;
+    color: white;
+    font-size: 2.5vw;
+    text-align: center;
+}
+#numOfJobs{
+    border-radius: 25px;
+    background: #d4a1f3;
+    color: white;
+    font-size: 2.5vw;
+    text-align: center;
+}
+#average_sal{
+    border-radius: 25px;
+    background: #d4a1f3;
+    color: white;
+    font-size: 2.5vw;
+    text-align: center;
+}
+
+/*Section displaying the jobs themselves*/
+#jobList{
+}
+
+#dropdownMenu2{
+    background: #ada2ff;
+    opacity: 1;
+    transition: 0.3s;
+}
+#dropdownMenu2:hover{
+    opacity:0.8;
+}
+
+#jobsInfoContainer {
+    border-style: solid;
+    border-radius: 20px;
+    background-color: lightgray;
+    opacity:0.9;
+}
+
+#filters{
+    font-family: 'Montserrat', sans-serif;
+    border-style: solid;
+    border-radius: 20px;
+    background-color: lightgray;
+}
+#filterText {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    font-size:15px;
+    text-align: center;
+    background-color: white;
+    opacity: 0.8;
+    filter: alpha(opacity=80); /* For IE8 and earlier */
+}
+
+#filterRow{
+    padding-top:30px;
+}
+#Titles p{
+    font-size: 1.5vw;
+    text-decoration: underline;
+    text-decoration-line: underline;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+}
+#JobTableTitles{
+    font-size:18px;
+    font-weight:bold ;
+}
+/*For big screens*/
+@media only screen and (min-width: 1500px) {
+    #searchBTN{
+        font-size:25px;
+    }
+    #Titles p{
+        font-size:40px;
+    }
+    #JobTableTitles{
+        font-size:30px;
+    }
+    .dropdown-item{
+        font-size:25px;
+    }
+    #filterText{
+        font-size:25px;
+    }
+}
+@media only screen and (max-width: 850px) {
+    #Titles p{
+        font-size:15px;
+    }
+}
+@media only screen and (max-width: 734px) {
+    #JobTableTitles{
+        font-size:12px;
+    }
+}
+/*Mobile version*/
+@media only screen and (max-width: 615px){
+    #Jobs_Page{
+        background: url(https://www.carvemag.com/wp-content/uploads/2019/03/SANDY-CAMPS.jpg) no-repeat center center fixed;
+        background-position:right center;
+        background-size:cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+    }
+    #filterButtons p {
+        font-size: 15px;
+        margin: 0;
+        text-align: center;
+    }
+    button#dropdownMenu2.btn.btn-secondary.dropdown-toggle::after{
+        margin-top:5px;
+        font-size:12px;
+    }
+    #score1{
+        padding-left:5px;
+    }
+    #Titles p{
+        font-size:10px;
+        text-decoration: underline;
+        text-decoration-line: underline;
+        text-decoration-style: initial;
+        text-decoration-color: initial;
+    }
+    #JobTableTitles{
+        font-size:9px;
+    }
+    #filterText{
+        font-size:12px;
+    }
+}
