@@ -1,0 +1,80 @@
+body 
+{
+    background-color: #e6e6e6;
+    text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	margin: 0;
+}
+#Banner
+{
+	margin-left: 20%;
+	margin-right: 20%;
+	background-color: #5f0776;
+}
+#BannerImage
+{
+	width: 100%;
+	padding-bottom: 0;
+}
+#ProfilePicture
+{
+	margin: -90px 10px 0px 50px;
+	position: relative;
+    z-index: 9;
+    width: 20%; 
+	border-radius: 50%;
+}
+#NameBar
+{
+	height: 150px;
+	padding-top: 0;
+}
+#Navigation 
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+.NavigationList
+{
+	float: left;
+    text-align: center;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	
+}
+.nav
+{
+	color: white;
+	text-decoration: none;
+	font-size: 125%;
+}
+.nav:hover
+{
+	color: #e1c1f0;
+	text-decoration: none;
+}
+
+#Profile
+{
+	display: inline;
+}
+#Summary
+{
+	margin-left: 20%;
+	height: 700px;
+	width: 20%;
+	background-color: #d4a1f3;
+	float: left;
+}
+
+#AboutMe, #activity-feed
+{
+	float: left;
+	margin-left: 2%;
+	color: #5f0776;
+}
